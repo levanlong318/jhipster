@@ -18,7 +18,7 @@ jhipster:
                 # secret: MDY1MTM4YmM4YzFjMGZmMGViNGEyZGY5M2M4M2YwYjA3MjMxNjc4MDdmOGFmNjQzYzk2N2M1Y2M5MTljNmE4MzhlZDQ3OTkzMTIzYzQ3NzQ1NmQ2ODMzOTllYTQ5MWI2OTQ5MDdkNDdkODgxYWViMzZhM2EwMTFhMDkxNjJjZGY=
                 # The `base64-secret` property is recommended if you use JHipster v5.3.0+
                 # (you can type `echo 'secret-key'|base64` on your command line)
-                base64-secret: 065138bc8c1c0ff0eb4a2df93c83f0b0723167807f8af643c967c5cc919c6a838ed47993123c477456d683399ea491b694907d47d881aeb36a3a011a09162cdf
+                base64-secret: TFBppdr5Vn4psLt3e/rwLW7nKzm2tI+/nPQjd1cRagQTFBuNfJxRTMCD20xvGfrj9bPViMnM/OrA+lElvduX/w==
 
 # Enable /management/logfile endpoint for all apps
 logging:
