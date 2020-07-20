@@ -20,6 +20,11 @@ jhipster:
                 # (you can type `echo 'secret-key'|base64` on your command line)
                 base64-secret: TFBppdr5Vn4psLt3e/rwLW7nKzm2tI+/nPQjd1cRagQTFBuNfJxRTMCD20xvGfrj9bPViMnM/OrA+lElvduX/w==
 
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:${jhipster.registry.password}@jhipster-registry:8761/eureka/
+      
 # Enable /management/logfile endpoint for all apps
 logging:
     path: /tmp
