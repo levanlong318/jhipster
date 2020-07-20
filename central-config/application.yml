@@ -15,10 +15,10 @@ jhipster:
                 # It is recommended to encode the secret key in Base64, using the `base64-secret` property.
                 # For compabitibily issues with applications generated with older JHipster releases,
                 # we use the non Base64-encoded `secret` property here.
-                secret: MDY1MTM4YmM4YzFjMGZmMGViNGEyZGY5M2M4M2YwYjA3MjMxNjc4MDdmOGFmNjQzYzk2N2M1Y2M5MTljNmE4MzhlZDQ3OTkzMTIzYzQ3NzQ1NmQ2ODMzOTllYTQ5MWI2OTQ5MDdkNDdkODgxYWViMzZhM2EwMTFhMDkxNjJjZGY=
+                # secret: MDY1MTM4YmM4YzFjMGZmMGViNGEyZGY5M2M4M2YwYjA3MjMxNjc4MDdmOGFmNjQzYzk2N2M1Y2M5MTljNmE4MzhlZDQ3OTkzMTIzYzQ3NzQ1NmQ2ODMzOTllYTQ5MWI2OTQ5MDdkNDdkODgxYWViMzZhM2EwMTFhMDkxNjJjZGY=
                 # The `base64-secret` property is recommended if you use JHipster v5.3.0+
                 # (you can type `echo 'secret-key'|base64` on your command line)
-                # base64-secret: bXktc2VjcmV0LWtleS13aGljaC1zaG91bGQtYmUtY2hhbmdlZC1pbi1wcm9kdWN0aW9uLWFuZC1iZS1iYXNlNjQtZW5jb2RlZAo=
+                base64-secret: 065138bc8c1c0ff0eb4a2df93c83f0b0723167807f8af643c967c5cc919c6a838ed47993123c477456d683399ea491b694907d47d881aeb36a3a011a09162cdf
 
 # Enable /management/logfile endpoint for all apps
 logging:
